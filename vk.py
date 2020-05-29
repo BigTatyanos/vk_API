@@ -1,6 +1,6 @@
 import requests
 
-token = "2e53bfc4bd56daf857708a8324b35a0692b02aa171c5ecf7138445ab5a32b637485204b5d0837e747a3e7"
+token = "1ce8c58c6369dd2f7657a3ea37e6814dbbd29892a16fd732ea1b506abd9a3db06d84af70fb8ab4c62c285"
 user_id = "56719936"
 
 album_names = requests.get("https://api.vk.com/method/photos.getAlbums?user_id=" +
